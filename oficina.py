@@ -18,7 +18,9 @@ def descobrir_executavel_godot():
     if not os.path.isdir(godot_dir):
         return None
 
-    for nome in os.listdir(godot_dir):
+    for nome in sorted(os.listdir(godot_dir)):
+        if nome.startswith("."):
+            continue
         caminho = os.path.join(godot_dir, nome)
         if os.path.isfile(caminho):
             return caminho

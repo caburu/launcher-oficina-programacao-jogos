@@ -20,3 +20,6 @@ jogos/*
 !jogos/.gitkeep
 godot/*
 !godot/.gitkeep
+
+# Log files
+*.log
