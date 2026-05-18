@@ -1,0 +1,22 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Ignore workshop assets/games content, but keep the folders tracked
+imagens/*
+!imagens/.gitkeep
+jogos/*
+!jogos/.gitkeep
+godot/*
+!godot/.gitkeep
